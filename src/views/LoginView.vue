@@ -37,7 +37,7 @@ const handleLogin = async () => {
               <p
                 class="-rotate-45 text-center text-sm font-medium uppercase tracking-[0.3em] text-white/80"
               >
-                employee management system ver 0.0.1
+                employee management system ver 0.0.0.1
               </p>
             </div>
           </section>
