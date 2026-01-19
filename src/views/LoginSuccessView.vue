@@ -10,7 +10,7 @@
           login success
         </p>
         <h1 class="mt-4 text-3xl font-semibold uppercase tracking-[0.2em]">
-          Welcome back proceed to dashboard
+          Welcome back users proceed to dashboard
         </h1>
         <p class="mt-6 text-sm text-white/70">
           You are now signed in. Continue to your dashboard when ready.
