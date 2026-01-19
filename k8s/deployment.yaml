@@ -14,7 +14,7 @@ spec:
     spec:
       # PINNED TO SERVICES NODE GROUP
       nodeSelector:
-        eks.amazonaws.com/nodegroup: services-2026011207041765490000000c
+        karpenter.sh/nodepool: services
         tolerations:
       - key: "node.bth.dev/managed-only"
         operator: "Equal"
