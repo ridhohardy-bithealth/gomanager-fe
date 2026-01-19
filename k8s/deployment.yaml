@@ -7,9 +7,11 @@ spec:
   selector:
     matchLabels:
       app: gomanager-fe
+      app: gomanager-fe
   template:
     metadata:
       labels:
+        app: gomanager-fe
         app: gomanager-fe
     spec:
       # PINNED TO SERVICES NODE GROUP
@@ -21,7 +23,7 @@ spec:
         value: "true"
         effect: "NoSchedule"
       containers:
-      - name: frontend
+      - name: gomanager-fe
         image: 975049918767.dkr.ecr.ap-southeast-3.amazonaws.com/bth-cloud/gomanager-fe:latest
         ports:
         - containerPort: 80
