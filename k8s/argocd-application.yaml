@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: CHANGE_ME_REPO_URL
+    repoURL: https://github.com/ridhohardy-bithealth/gomanager-fe.git
     targetRevision: main
     path: k8s
   destination:
     server: https://kubernetes.default.svc
-    namespace: CHANGE_ME_NAMESPACE
+    namespace: gomanager-fe
   syncPolicy:
     automated:
       prune: true
