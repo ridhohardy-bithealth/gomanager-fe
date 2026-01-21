@@ -16,7 +16,11 @@ spec:
       nodeSelector:
         karpenter.sh/nodepool: services
       tolerations:
-      - key: "node.bth.dev/managed-only"
+      # - key: "node.bth.dev/managed-only"
+      #   operator: "Equal"
+      #   value: "true"
+      #   effect: "NoSchedule"
+      - key: "node.bth.dev/services-only"
         operator: "Equal"
         value: "true"
         effect: "NoSchedule"
