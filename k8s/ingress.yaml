@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: internal.bithealth.co.id
+    - host: gomanager-fe.internal.bithealth.co.id
       http:
         paths:
           - path: /
