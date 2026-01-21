@@ -7,11 +7,9 @@ spec:
   selector:
     matchLabels:
       app: gomanager-fe
-      app: gomanager-fe
   template:
     metadata:
       labels:
-        app: gomanager-fe
         app: gomanager-fe
     spec:
       # PINNED TO SERVICES NODE GROUP
