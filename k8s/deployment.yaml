@@ -26,7 +26,7 @@ spec:
         effect: "NoSchedule"
       containers:
       - name: gomanager-fe
-        image: 975049918767.dkr.ecr.ap-southeast-3.amazonaws.com/bth-cloud/gomanager-fe:47c583a6990a83edf56b3caf946ecafc62eac695
+        image: 975049918767.dkr.ecr.ap-southeast-3.amazonaws.com/bth-cloud/gomanager-fe:4c833b79854d909c0ee687e52d05f5dbc706bcd2
         ports:
         - containerPort: 80
 ---
